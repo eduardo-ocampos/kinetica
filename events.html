@@ -1,0 +1,68 @@
+<!-- EVENTS PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events | Kinetica</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+  <header class="fixed w-full z-10 bg-white bg-opacity-90 shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-xl font-bold tracking-wide">Kinetica</a>
+      <nav class="space-x-6">
+        <a href="about.html" class="hover:underline">About</a>
+        <a href="bio.html" class="hover:underline">Bio</a>
+        <a href="resources.html" class="hover:underline">Resources</a>
+        <a href="events.html" class="hover:underline font-semibold">Events</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-32 pb-20 px-6 max-w-5xl mx-auto">
+    <h1 class="text-3xl font-bold text-center mb-10">Upcoming Events</h1>
+    <div class="grid md:grid-cols-2 gap-6">
+
+      <!-- Event 1 -->
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="Images/events/acrobatics2.jpg" alt="Acrobatics" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold mb-2">Acrobatics Basics in Hsinchu</h2>
+          <p class="mb-4">📍 Hsinchu, Taiwan · 🗓️ July 20–21, 2025, 🕒 8:00–12:00 AM</p>
+          <form action="https://formspree.io/f/manjedkr" method="POST" class="space-y-2">
+            <input type="text" name="name" placeholder="Your Name" required class="w-full px-4 py-2 border rounded">
+            <input type="email" name="email" placeholder="Your Email" required class="w-full px-4 py-2 border rounded">
+            <button type="submit" class="w-full bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Register</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Event 2 -->
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="Images/events/jiujitsu.jpg" alt="Jiujitsu" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold mb-2">Mobility for Jiujitsu</h2>
+          <p class="mb-4">📍 Taipei, kobra Ka'i Studio· 🗓️ August 5, 2025 · 🕒 6:00–9:30 PM </p>
+          <form action="https://formspree.io/f/manjedkr" method="POST" class="space-y-2">
+            <input type="text" name="name" placeholder="Your Name" required class="w-full px-4 py-2 border rounded">
+            <input type="email" name="email" placeholder="Your Email" required class="w-full px-4 py-2 border rounded">
+            <button type="submit" class="w-full bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Register</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="text-center py-6 text-sm text-gray-500">
+    &copy; 2025 Kinetica. All rights reserved.
+  </footer>
+</body>
+</html>
